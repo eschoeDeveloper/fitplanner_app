@@ -67,6 +67,7 @@
    git clone https://github.com/username/fitplanner.git
    cd fitplanner
    ```
+
 2. 환경 변수 설정 (`.env` 파일)
 
    ```dotenv
@@ -75,26 +76,24 @@
    NOTION_API_KEY=secret_XXXXX
    JWT_SECRET=your_jwt_secret
    ```
+
 3. Docker Compose로 로컬 실행
 
    ```bash
    docker-compose up -d
    ```
+
 4. API 문서 확인
 
+   ```text
+   http://localhost:8080/swagger-ui.html
    ```
-   ```
-
-### [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
-
-```
 
 ---
 
 ## 📂 주요 폴더 구조
 
 ```
-
 ├── src/main/java/com/fitplanner
 │   ├── controller   # API 엔드포인트
 │   ├── service      # 비즈니스 로직
@@ -109,30 +108,27 @@
 │   ├── architecture.png
 │   └── api-usage.md
 └── assets
-└── fitplanner.png
-
+    └── fitplanner.png
 ```
 
 ---
 
 ## 📈 성과 및 회고
 
-- **모델 정확도:** 체형 분류 모델 92% 이상 달성
-- **API 응답 시간:** 평균 120ms 이내
-- **회고:** AR 처리 지연 이슈 해결을 위해 모델 경량화 및 캐싱 적용 후 UX 개선
+* **모델 정확도:** 체형 분류 모델 92% 이상 달성
+* **API 응답 시간:** 평균 120ms 이내
+* **회고:** AR 처리 지연 이슈 해결을 위해 모델 경량화 및 캐싱 적용 후 UX 개선
 
 ---
 
 ## 🤝 기여 및 연락처
 
-- **GitHub:** [github.com/username/fitplanner](https://github.com/username/fitplanner)  
-- **Email:** your.email@example.com  
-- **LinkedIn:** [linkedin.com/in/username](https://linkedin.com/in/username)
+* **GitHub:** [github.com/username/fitplanner](https://github.com/username/fitplanner)
+* **Email:** [your.email@example.com](mailto:your.email@example.com)
+* **LinkedIn:** [linkedin.com/in/username](https://linkedin.com/in/username)
 
 ---
 
 ## 📜 라이선스
 
 MIT License © 2025 Your Name
-
-```
